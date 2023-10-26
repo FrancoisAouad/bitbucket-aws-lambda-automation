@@ -1,7 +1,7 @@
 package services
 
 import (
-	"example/lib"
+	"example/src/lib"
 	"os"
 	"os/exec"
 )
