@@ -15,7 +15,7 @@ var logger = lib.Log
 
 func main() {
 	lib.LoggerInit(logger)
-	logger.WithFields(logrus.Fields{"type": "System", "job": "PE-Patch"}).Info("Started executing Lambda function to Update Jenkins Job Param")
+	logger.WithFields(logrus.Fields{"type": "System", "job": "AWS-Lambda"}).Info("Started executing Lambda function to Update Jenkins Job Param")
 	// const url = "http://pokeapi.co/api/v2/pokedex/kanto/"
 	data := http.GetApiData(configs.BITBUCKET_URL)
 	branchList := bitbucket.HandleBranches(data)
