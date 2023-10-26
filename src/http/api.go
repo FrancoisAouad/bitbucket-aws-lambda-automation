@@ -1,7 +1,7 @@
 package http
 
 import (
-	"example/lib"
+	"example/src/lib"
 	"io/ioutil"
 	"net/http"
 	"os"

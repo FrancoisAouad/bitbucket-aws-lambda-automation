@@ -1,12 +1,12 @@
 package main
 
 import (
-	"example/configs"
-	"example/fs"
-	"example/http"
-	"example/lib"
-	"example/services"
-	"example/services/bitbucket"
+	"example/src/configs"
+	"example/src/fs"
+	"example/src/http"
+	"example/src/lib"
+	"example/src/services"
+	"example/src/services/bitbucket"
 
 	"github.com/sirupsen/logrus"
 )

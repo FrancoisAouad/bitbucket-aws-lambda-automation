@@ -1,7 +1,7 @@
 package bitbucket
 
 import (
-	"example/lib"
+	"example/src/lib"
 	"os"
 	"sort"
 

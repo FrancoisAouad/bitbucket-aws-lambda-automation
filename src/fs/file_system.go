@@ -1,7 +1,7 @@
 package fs
 
 import (
-	"example/lib"
+	"example/src/lib"
 	"os"
 )
 

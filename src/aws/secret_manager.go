@@ -1,8 +1,8 @@
 package aws
 
 import (
-	"example/enums"
-	"example/lib"
+	"example/src/enums"
+	"example/src/lib"
 	"fmt"
 	"os"
 
